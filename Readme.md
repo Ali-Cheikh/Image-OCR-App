@@ -51,8 +51,9 @@ function doPost(e) {
   }
 }
 ```
-<img src="image-4.png" align="right" width="50%">
+<img src="image-3.png" align="right" width="50%">
 replace **Folder-Id** with your google drive folder id
+<u>https://drive.google.com/drive/folders/<b>Folder-Id</b> </u>
 <br>
 
 4. deploy the project
