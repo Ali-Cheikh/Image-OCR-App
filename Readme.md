@@ -51,8 +51,9 @@ function doPost(e) {
   }
 }
 ```
-<img src="image-3.png" align="right" width="70%">
+<img src="image-4.png" align="right" width="50%">
 replace **Folder-Id** with your google drive folder id
+<br>
 
 4. deploy the project
 5. update Javascript file **app.js**, -**uploadImageToDrive**- function
