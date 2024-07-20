@@ -7,7 +7,7 @@
 ---
 ### Usage: 
 use this app to register faster defected stickers/pn's picture to the drive or other image update purposes.
-<br><br><br><img src="image-2.png" align="right" width="35%">
+<img src="image-2.png" align="right" width="35%">
 
 ### Steps:
 1. Take a medium quality picture **make sure p/n is visible(not blurry)**
