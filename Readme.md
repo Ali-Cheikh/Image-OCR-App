@@ -5,7 +5,7 @@
 
 ## inventory control team <span style="color:orange">OCR App</span>
 ---
-### Usage: 
+### Usage:
 use this app to register faster defected stickers/pn's picture to the drive or other image update purposes.
 <img src="image-2.png" align="right" width="35%">
 
