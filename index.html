@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image OCR App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        #imageContainer {
+            position: relative;
+            display: inline-block;
+        }
+        .highlight {
+            position: absolute;
+            border: 2px solid red;
+            background-color: rgba(255, 0, 0, 0.3);
+            pointer-events: none;
+        }
+        #progressBarContainer {
+            width: 100%;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        #progressBar {
+            height: 20px;
+            width: 0;
+            background-color: #55c77b;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded shadow-md max-w-md">
+        <h1 class="text-2xl font-bold mb-4">Image OCR App</h1>
+        <input type="file" id="imageInput" class="mb-4 p-3 border bg-gray-300 rounded">
+        <button id="scanButton" class="bg-blue-500 text-white p-2 rounded">Scan Image</button>
+        <div id="imageContainer">
+            <img id="imageDisplay" src="" alt="Selected Image" style="max-width: 100%;">
+        </div>
+        <div id="progressBarContainer" class="hidden">
+            <div id="progressBar"></div>
+        </div>
+        <div id="results" class="mt-4"></div>
+        <button id="submitButton" class="bg-green-500 text-white p-2 rounded mt-4 hidden">Upload to Google Drive</button>
+    </div>
+    <div id="text1"></div>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@2.1.1"></script>
+    <script src="app.js"></script>
+</body>
+</html>
