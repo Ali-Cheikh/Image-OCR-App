@@ -1,4 +1,4 @@
-# <span style="color:lightblue">Ener</span><span style="color:lightgreen">Green</span>
+# <span style="color:lightblue">Ener</span><span style="color:lightgen">Green</span>
 <img src="image.png" width="100%">
 
 ---
@@ -6,7 +6,7 @@
 ## inventory control team <span style="color:orange">OCR App</span>
 ---
 ### Usage:
-use this app to register faster defected stickers/pn's picture to the drive or other image update purposes.
+use this app to register faster defected stickers/pn's pictures sharing it to the drive or other image share/update purposes.
 <img src="image-2.png" align="right" width="35%">
 
 ### Steps:
@@ -62,3 +62,5 @@ replace **Folder-Id** with your google drive folder id
         const serverUrl = 'https://script.google.com/macros/s/your-deployment-key/exec';
 ```
 replace **your-deployment-key** with your deployment key
+
+/**audit work should be easy**/

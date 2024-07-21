@@ -53,6 +53,7 @@ function processText(text, blocks, file) {
         /P\/?N\s*(\S+)\s*(\S+)/i,
         /P\/?N\s*[:\-]?\s*(\S+)/i,
         /p\s*\/?\s*n\s*[:\-]?\s*(\S+)/i,
+        /P\s*\/?\s*N\s*[:\-]?\s*(\S+)/i,
         /p\s*n\s*[:\-]?\s*(\S+)/i,
         /PIN\s*[:\-]?\s*(\S+)/i,
         />\s*\/?\s*N\s*[:\-]?\s*(\S+)/i
